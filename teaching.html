@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="slideShow.css"/>    
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Teaching | Lab @ NEEC</title>
+<link rel="shortcut icon" type="image/png" href="photos/校徽.jpg"/>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="first">
+<div class="menu-category">Lab of Non-equilibrium Energy Conversion</div>
+<div class="sencode">
+  <div class="menu-item"><a href="home.html">Home</a></div>
+  <div class="menu-item"><a href="research.html">Research</a></div>
+  <div class="menu-item"><a href="facility.html">Facility</a></div>
+  <div class="menu-item"><a href="publication.html">Publication</a></div>
+  <div class="menu-item"><a href="group.html">Group</a></div>
+  <div class="menu-item"><a href="teaching.html" class="current">Teaching</a></div>
+</div>
+</div>
+<!-- <div class="menu-item"><a href="teaching.html">Teaching</a></div> -->
+<div class="menu-category"><img src="photos/head.png" /></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+  <div class="imgBox">
+    <!-- alt：图片路径失败时替换显示内容 -->
+    <img class="img-slide img" src="photos/1.png" alt="img1">
+  </div>
+<!-- <h1>Teaching</h1> -->
+</div>
+<div class="infoblock">
+  <h2>Undergraduate Teaching</h2>
+  <div class="blockcontent">
+  <ul>
+  <li><p>Engineering Thermodynamics
+  </p>
+  </li>
+  </ul>
+  </div></div>
+<div class="infoblock">
+  <h2>Postgraduate Teaching</h2>
+  <div class="blockcontent">
+  <ul>
+  <li><p>Non-Equilibrium Reactive Flow Kinetics
+  </p>
+  </li>
+  </ul>
+  </div></div>
+
+<div align="center">
+  <img src="photos/1.png" width="950" height="200" />
+  </div>
+<!-- <h3>Undergraduate Teaching</h3>
+<ul>
+<li><p>Engineering Thermodynamics
+<br /></p>
+</li>
+</ul> -->
+<!-- <h3>Postgraduate Teaching</h3>
+<ul>
+<li><p>Non-Equilibrium Reactive Flow Kinetics
+<br />
+<br /></p>
+</li>
+</ul> -->
+<div id="footer">
+  <div class="block-content content" ng-non-bindable="">
+      <div id='boxes-box-1370373313' class='boxes-box'><div class="boxes-box-content"><p style="text-align:left">
+      <span><span>Peking University</span></span><br />
+      <span>College of Engineering</span><br />
+          <span>Copyright © by Lab @ NEEC</span></span>
+           
+<!-- <div id="footer-text">
+Page generated 2022-05-24 11:46:32 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div> -->
+</div>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript">
+  // index：索引， len：长度
+  var index = 0, len;
+  // 类似获取一个元素数组
+  var imgBox = document.getElementsByClassName("img-slide");
+  len = imgBox.length;
+  imgBox[index].style.display = 'block';
+  // 逻辑控制函数
+  function slideShow() {
+      index ++;
+      // 防止数组溢出
+      if(index >= len) index = 0;
+      // 遍历每一个元素
+      for(var i=0; i<len; i++) {
+          imgBox[i].style.display = 'none';
+      }
+      // 每次只有一张图片显示
+      imgBox[index].style.display = 'block';
+  }
+  
+  // 定时器，间隔3s切换图片
+  setInterval(slideShow, 3000);
+  
+</script>
+<script>
+  function fun() {
+      var htmlobj = document.getElementsByTagName("html")[0];
+    
+      htmlobj.style.fontSize = document.documentElement.clientWidth / 750*10  + "px";
+      console.log(htmlobj.style.fontSize);
+  }
+  fun();
+  window.onresize = fun;
+
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

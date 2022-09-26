@@ -1,0 +1,23 @@
+
+/* id选择器 */
+
+/* 类选择器 */
+.imgbox {
+    border-top: 5px solid cadetblue;
+    /* 避免因窗口变化影响图片效果 */
+    width: 50%;
+    height: 40%;
+    margin: 0 auto;
+}
+.img1{
+    width: 75%;
+    height: 25%;
+    margin: 0 auto;
+    display: none;
+}
+.img {
+    width: 75%;
+    height: 25%;
+    margin: 0 auto;
+    display: none;
+}
